@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0; margin:0;
+	}
+
+h2{
+	font-family:'Righteous', cursive;
+	}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background-color:white;
+	color: #666;
+	margin-right: 20px;
+	}
+	
+small {
+	color:#b69877;
+	}
+
+small a,
+p a{
+	color:#ddd;
+	text-decoration: none;
+	}
+
+
+/*Header*/
+header{
+	background:lightpink;
+	padding: 0;
+	margin-bottom: 0;
+	position: relative;
+	z-index:10;
+	overflow:hidden;
+	margin-top: 0;
+	}
+	
+header a{
+	text-decoration: none;
+	}
+	
+header img{
+	float:left;
+	}
+
+/*Content*/
+.one {
+	background:magenta;
+	}
+	
+.one .img1{
+	margin-left:-100px;
+	margin-top:20px;
+	width: 70%;
+	}
+
+.one .page-container{
+	position: absolute;
+	bottom: 10px;
+	margin-top:5px;
+	left:50%;
+	margin-bottom: 150px;
+	max-width:650px;
+	margin-right: 50px;
+	}
+
+.one .page-container h2{
+	font-size: 36px;
+	font-family: "Times New Roman", Times, serif;
+	}
+	
+.one .page-container p{
+	padding: 10px 0;
+	line-height: 1.5em;
+	}
+	
+.two{
+	background:white;
+	}
+	
+.two .img1{
+	margin-right:50px;
+	margin-top:20px;
+	width: 250px;
+	}
+
+.two .page-container{
+	position:absolute;
+	bottom: 100px;
+	margin-top:10px;
+	left:10%;
+	margin-bottom: 150px;
+	max-width:600px;
+	max-height: 600px;
+	}
+	
+.two .page-container h2{
+	font-size: 30px;
+	font-family: Times New Roman;
+	margin-bottom: 10px;
+	margin-top: 200px;
+	}
+
+.two .page-container p{
+	padding:20px 0;
+	line-height:1.5em;
+	}
+	
+	
+.three{
+	background-color:lightgreen;
+	}
+	
+.three .page-container{
+	position:absolute;
+	bottom: 5px;
+	margin-top:10px;
+	left:10%;
+	margin-bottom: 150px;
+	max-width:600px;
+	max-height: 600px;
+	}
+
+.three .img1{
+	margin-left: 50px;
+	margin-top:10px;
+	float: right;
+	margin-right: 100px;
+	}
+
+.three .img1 h2{
+	font-size: 24px;
+	font-family: arial;
+	text-align: center;
+	}
+
+.three .page-container .carousel p{
+	padding:0;
+	line-height:1.5em;
+	}
+
+.three .page-container h2{
+	padding:0;
+	font-size: 24px;
+	font-family: arial;
+	}
+
+.three .page-container .coutdown{
+	float: right;
+	}
+.three .page-container button{ 
+	float: right;
+	}

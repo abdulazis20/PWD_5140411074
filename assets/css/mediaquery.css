@@ -1,0 +1,10 @@
+@media screen and (max-width:960px){
+	
+.header {
+		position:inherit;
+		}
+.page-container{
+	max-width:93.75%;
+	margin:15px auto;
+}
+}
